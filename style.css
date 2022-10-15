@@ -1,3 +1,20 @@
+@font-face {
+    font-family: "Amazon Ember";
+    src: url("Ember font/amazonember_rg-webfont.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Amazon Ember";
+    src: url("Ember font/amazon-ember-medium-webfont.woff") format("woff");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Amazon Ember";
+    src: url("Ember font/amazonember_bd-webfont.woff") format("woff");
+    font-weight: 700;
+}
+
 * {
     box-sizing: border-box;
 }
