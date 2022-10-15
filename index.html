@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prime Video</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="https://cdn2.steamgriddb.com/file/sgdb-cdn/icon/f64b2463cf1dba199491c885dff932f3.ico"
+    />
+    <link href="http://fonts.cdnfonts.com/css/amazon-ember" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <!-- header starts -->
+
+    <header class="header">
+      <nav class="navbar">
+        <a href="index.html">
+          <div class="logo"></div>
+        </a>
+
+        <!-- div containing all content of the navbar starts -->
+
+        <div class="main-menu">
+          <!-- main part containing various btns starts -->
+
+          <div class="primary-content">
+            <ul class="menu-list">
+              <li class="menu-list-li">
+                <a href="#" class="nav-link active">Home</a>
+              </li>
+              <li class="menu-list-li">
+                <a href="#" class="nav-link">Store</a>
+              </li>
+              <li class="menu-list-li">
+                <a href="#" class="nav-link">Channels</a>
+              </li>
+              <!-- categories  dropdown starts -->
+
+              <li class="menu-list-li" id="category-btn">
+                <div class="dropdown">
+                  <a class="nav-link dropdown-toggle"
+                    >Categories
+                    <img
+                      class="dropdown-arrow"
+                      src="https://cdn2.iconfinder.com/data/icons/50-material-design-round-corner-style/44/Dropdown_2-512.png"
+                      alt="dropdown-arrow"
+                  /></a>
+                  <ul class="dropdown-menu hidden">
+                    <div class="menu-container">
+                      <!-- top categories grid starts -->
+                      <div class="top-categories">
+                        <h3 class="categories-h3">Top categories</h3>
+                        <ul class="category-grid">
+                          <li
+                            class="top-categories-li"
+                            style="
+                              background-image: url(https://m.media-amazon.com/images/G/01/digital/video/web_cats/Included-With-Prime.png);
+                            "
+                          >
+                            <a href="#" class="categories-a"
+                              >Included with Prime</a
+                            >
+                          </li>
+                          <li
+                            class="top-categories-li"
+                            style="
+                              background-image: url(https://m.media-amazon.com/images/G/01/digital/video/web_cats/Amazon-Originals.png);
+                            "
+                          >
+                            <a href="#" class="categories-a"
+                              >Amazon Originals</a
+                            >
+                          </li>
+                          <li
+                            class="top-categories-li"
+                            style="
+                              background-image: url(https://m.media-amazon.com/images/G/01/digital/video/web_cats/Movies.png);
+                            "
+                          >
+                            <a href="#" class="categories-a">Movies</a>
+                          </li>
+                          <li
+                            class="top-categories-li"
+                            style="
+                              background-image: url(https://m.media-amazon.com/images/G/01/digital/video/web_cats/TV-Shows.png);
+                            "
+                          >
+                            <a href="#" class="categories-a">TV</a>
+                          </li>
+                          <li
+                            class="top-categories-li"
+                            style="
+                              background-image: url(https://m.media-amazon.com/images/G/01/digital/video/web_cats/Included-With-Prime.png);
+                            "
+                          >
+                            <a href="#" class="categories-a">Kids</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <!-- top categories grid ends -->
+
+                      <!-- line separating 2 divs -->
+                      <div class="separator"></div>
+                      <!-- audio languages section starts -->
+                      <div class="audio-languages">
+                        <h3 class="categories-h3">Audio languages</h3>
+                        <ul class="cat-columns-2">
+                          <li class="categories-li">
+                            <a class="category-link" href="#">English</a>
+                          </li>
+                          <li class="categories-li">
+                            <a class="category-link" href="#">Hindi</a>
+                          </li>
+                          <li class="categories-li">
+                            <a class="category-link" href="#">Telegu</a>
+                          </li>
+                          <li class="categories-li">
+                            <a class="category-link" href="#">Tamil</a>
+                          </li>
+                          <li class="categories-li">
+                            <a class="category-link" href="#">Kannada</a>
+                          </li>
+                          <li class="categories-li">
+                            <a class="category-link" href="#">Malayalam</a>
+                          </li>
+                          <li class="categories-li">
+                            <a class="category-link" href="#">Punjabi</a>
+                          </li>
+                          <li class="categories-li">
+                            <a class="category-link" href="#">Marathi</a>
+                          </li>
+                          <li class="categories-li">
+                            <a class="category-link" href="#">Bengali</a>
+                          </li>
+                          <li class="categories-li">
+                            <a class="category-link" href="#">Gujarati</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <!-- audio languages section ends -->
+
+                      <!-- other categories section starts -->
+                      <div class="other-categories">
+                        <h3 class="categories-h3">Other categories</h3>
+                        <ul class="cat-columns-1">
+                          <li class="categories-li">
+                            <a href="#" class="category-link">Drama</a>
+                          </li>
+                          <li class="categories-li">
+                            <a href="#" class="category-link"
+                              >Action and adventure</a
+                            >
+                          </li>
+                          <li class="categories-li">
+                            <a href="#" class="category-link">Romance</a>
+                          </li>
+                          <li class="categories-li">
+                            <a href="#" class="category-link">Comedy</a>
+                          </li>
+                          <li class="categories-li">
+                            <a href="#" class="category-link">Suspense</a>
+                          </li>
+                          <li class="categories-li">
+                            <a href="#" class="category-link">Horror</a>
+                          </li>
+                          <li class="categories-li">
+                            <a href="#" class="category-link">Award winners</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <!-- other categories section ends -->
+                    </div>
+                  </ul>
+                </div>
+              </li>
+              <!--categories dropdown ends-->
+              <li class="menu-list-li">
+                <a href="#" class="nav-link">My Stuff</a>
+              </li>
+            </ul>
+          </div>
+          <!-- main part containing various btns ends -->
+
+          <!-- 2nd div containing search bar and profile settings starts -->
+
+          <div class="secondary-content">
+            <!-- search bar starts -->
+
+            <div class="search-bar hide-it">
+              <form action="#">
+                <input
+                  type="text"
+                  placeholder="Search"
+                  class="search-box hide"
+                />
+              </form>
+            </div>
+
+            <!-- search bar ends -->
+
+            <!-- profile box starts -->
+
+            <div class="profile-box">
+              <!-- profile settings tab -->
+
+              <a class="profile-box-a white-text">
+                <div class="pfp main-pfp"></div>
+                <div class="profile-name" style="font-size: 15px">
+                  Harshi...
+                </div>
+                <img
+                  class="dropdown-arrow pfp-arrow"
+                  src="https://cdn2.iconfinder.com/data/icons/50-material-design-round-corner-style/44/Dropdown_2-512.png"
+                  alt="pfp"
+                />
+              </a>
+
+              <!-- profile settings dropdown starts -->
+
+              <ul class="profile-dropdown hidden">
+                <div class="profile-menu">
+                  <!-- account settings div starts -->
+
+                  <div class="account-settings">
+                    <ul class="cat-columns-1">
+                      <li class="categories-li">
+                        <a href="#" class="category-link acc-li"
+                          >Account & Settings</a
+                        >
+                      </li>
+                      <li class="categories-li">
+                        <a href="#" class="category-link acc-li"
+                          >Prime Benefits</a
+                        >
+                      </li>
+                      <li class="categories-li">
+                        <a href="#" class="category-link acc-li"
+                          >Watch Anywhere</a
+                        >
+                      </li>
+                      <li class="categories-li">
+                        <a href="#" class="category-link acc-li">Help</a>
+                      </li>
+                      <li class="categories-li">
+                        <a href="#" class="category-link acc-li"
+                          >Not Harshit? Sign Out</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+
+                  <!-- account settings div ends -->
+
+                  <!-- profile switch div starts -->
+
+                  <div class="switch-profile">
+                    <ul class="profile-manage cat-columns-1">
+                      <li class="categories-li">
+                        <a href="#" class="category-link acc-li img-and-name">
+                          <img
+                            class="pfp"
+                            src="https://m.media-amazon.com/images/G/02/CerberusPrimeVideo-FN38FSBD/kid-1.png"
+                            alt="Kids-pfp"
+                          />
+                          Kids</a
+                        >
+                      </li>
+                      <li class="categories-li">
+                        <a href="#" class="category-link acc-li img-and-name">
+                          <div class="pfp add-new"></div>
+                          Add New
+                        </a>
+                      </li>
+                      <li class="categories-li">
+                        <a href="#" class="category-link acc-li">
+                          Manage profiles</a
+                        >
+                      </li>
+                      <li class="categories-li">
+                        <a href="#" class="category-link acc-li">Learn more</a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <!-- profile switch div ends -->
+                </div>
+              </ul>
+
+              <!-- profile settings dropdown ends -->
+            </div>
+
+            <!-- profile box ends -->
+          </div>
+          <!-- 2nd div containing search bar and profile settings ends -->
+        </div>
+
+        <!-- div containing all content of the navbar ends -->
+      </nav>
+    </header>
+
+    <!-- header ends -->
+
+    <script src="login.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
