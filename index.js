@@ -8,11 +8,6 @@ const profileArrowEl = document.querySelector(".pfp-arrow");
 const profileDropdownEl = document.querySelector(".profile-dropdown");
 const profileNameEl = document.querySelector(".profile-name");
 
-
-profileNameEl.innerText = profileName.value;
-
-
-
 function toggleHidden() {
   categoryDropdownEl.classList.toggle("hidden");
   categoryTextEl.classList.toggle("white-text");
